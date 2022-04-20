@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/style.css">
+        <title>Fundamentos do vôlei</title>
+    </head>
+
+    <body>
+
+        <div class="content" id="content">
+            <main>
+                <h1>Fundamentos do vôlei - Game</h1>
+                <p>Componentes: Letícia Evelin Barreto, Letícia Evelin Sara, Louyse Vitória, Mariana e Maria Luiza.
+                    Turma:
+                    6º Ano
+                </p>
+            </main>
+
+            <div class="actions">
+                <!-- <button><-</button> -->
+                <button id="next" onclick="next('content')">-></button>
+            </div>
+        </div>
+
+        <div class="pergunta1" id="pergunta1" style="display: none;">
+            <header>
+                <h2>Quais são os fundamentos básicos do vôlei ?</h2>
+            </header>
+
+            <div class="respostas">
+                <button onclick="teste(1)" id="btn1">Saque, bloqueio, levantamento, ataque e recepção.</button>
+                <button onclick="teste(2)" id="btn2">Saque, toque, defesa, escanteio e recepção.</button>
+                <button onclick="teste(3)" id="btn3">Chute, toque, defesa, lateral e levantamento.</button>
+                <button onclick="teste(4)" id="btn4">Passe, levantamento, toque, lateral e levantamento.</button>
+            </div>
+
+            <div class="actions">
+                <button id="back" onclick="back('pergunta1')"><-</button>
+                <button id="next" onclick="next('pergunta1')">-></button>
+            </div>
+        </div>
+
+        <div class="pergunta1" id="pergunta2" style="display: none;">
+            <header>
+                <h2>Qual o objetivo do bloqueio ?</h2>
+            </header>
+
+            <div class="respostas">
+                <button onclick="teste(8)" id="btn8">Permitir que o adversário passe a bola pela rede.</button>
+                <button onclick="teste(6)" id="btn6">Ajudar o adversário a marcar um ponto.</button>
+                <button onclick="teste(5)" id="btn5">É a jogada que tenta impedir que a bola lançada pelo adversário ultrapasse a rede.</button>
+                <button onclick="teste(7)" id="btn7">Impedir que o adversário saque a bola novamente.</button>
+            </div>
+
+            <div class="actions">
+                <button id="back" onclick="back('pergunta2')"><-</button>
+                <button id="next" onclick="next('pergunta2')">-></button>
+            </div>
+        </div>
+
+        <div class="pergunta1" id="pergunta3" style="display: none;">
+            <header>
+                <h2>Qual é o saque no vôlei ?</h2>
+            </header>
+
+            <div class="respostas">
+                <button onclick="teste(12)" id="btn12">O saque no vôlei é levantar a bola para um colega de equipe.</button>
+                <button onclick="teste(11)" id="btn11">O saque no vôlei é impedir que o adverário marque pontos.</button>
+                <button onclick="teste(10)" id="btn10">O saque no vôlei é passar a bola para o capanheiro de equipe.</button>
+                <button onclick="teste(9)" id="btn9">É o ato de enviar a bola da área de saque para a quadra adervária.</button>
+            </div>
+
+            <div class="actions">
+                <button id="back" onclick="back('pergunta3')"><-</button>
+                <button id="next" onclick="next('pergunta3')">-></button>
+            </div>
+        </div>
+
+        <div class="pergunta1" id="pergunta4" style="display: none;">
+            <header>
+                <h2>Em que ano foi criado o vôlei ?</h2>
+            </header>
+
+            <div class="respostas">
+                <button onclick="teste(13)" id="btn13">Em 1895</button>
+                <button onclick="teste(14)" id="btn14">Em 1990</button>
+                <button onclick="teste(15)" id="btn15">Em 2000</button>
+                <button onclick="teste(16)" id="btn16">Em 1500</button>
+            </div>
+
+            <div class="actions">
+                <button id="back" onclick="back('pergunta4')"><-</button>
+                <button id="next" onclick="next('pergunta4')"><-</button>
+            </div>
+        </div>
+
+        <div class="final" id="final" style="display: none;">
+            <header>
+                <h2>Acabou :/</h2>
+            </header>
+            <button onclick="location.reload()">Refresh</button>
+        </div>
+
+        <footer>Criado Por Willian Raniere - SESI/SENAI</footer>
+
+        <script src="assets/script.js"></script>
+    </body>
+
+</html>
